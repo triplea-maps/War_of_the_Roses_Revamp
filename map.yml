@@ -1,0 +1,4 @@
+map_name: War_of_the_Roses_Revamp
+games:
+- {game_name: War of the Roses, file_name: War_of_the_Roses_Revamp.xml}
+version: 0

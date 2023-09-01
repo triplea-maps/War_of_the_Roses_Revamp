@@ -1,0 +1,1800 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+        <info name="War_of_the_Roses_Revamp" version="1"/>
+        <loader javaClass="games.strategy.triplea.TripleA"/>
+        <map>
+                <!-- Territory Definitions -->
+                <territory name="Les Attaques"/>
+                <territory name="Coulogne"/>
+                <territory name="Calais"/>
+                <territory name="Loch Ness"/>
+                <territory name="MacDonell"/>
+                <territory name="McDonald"/>
+                <territory name="Mackenzie"/>
+                <territory name="McLeod"/>
+                <territory name="Ullapool"/>
+                <territory name="Skye"/>
+                <territory name="Carnegie"/>
+                <territory name="Macay"/>
+                <territory name="Sealtainn"/>
+                <territory name="Orcades"/>
+                <territory name="Ruthven"/>
+                <territory name="Fraser"/>
+                <territory name="Leslie"/>
+                <territory name="York"/>
+                <territory name="Helmsley"/>
+                <territory name="Carvetii"/>
+                <territory name="Richmond"/>
+                <territory name="Preston"/>
+                <territory name="S. Rheged"/>
+                <territory name="Newark"/>
+                <territory name="Pleshey"/>
+                <territory name="Thetford"/>
+                <territory name="Framlingham"/>
+                <territory name="Windsor"/>
+                <territory name="London"/>
+                <territory name="Pevensky"/>
+                <territory name="Rockingham"/>
+                <territory name="Chirk"/>
+                <territory name="Baumaris"/>
+                <territory name="Milford Haven"/>
+                <territory name="Caernarvon"/>
+                <territory name="Penzance"/>
+                <territory name="Plymouth"/>
+                <territory name="Cardiff"/>
+                <territory name="Swansea"/>
+                <territory name="Cardigan"/>
+                <territory name="SZ50" water="true"/>
+                <territory name="SZ51" water="true"/>
+                <territory name="SZ54" water="true"/>
+                <territory name="SZ55" water="true"/>
+                <territory name="SZ52" water="true"/>
+                <territory name="SZ53" water="true"/>
+                <territory name="SZ58" water="true"/>
+                <territory name="Argyll"/>
+                <territory name="SZ9" water="true"/>
+                <territory name="SZ59" water="true"/>
+                <territory name="SZ8" water="true"/>
+                <territory name="SZ56" water="true"/>
+                <territory name="SZ7" water="true"/>
+                <territory name="SZ57" water="true"/>
+                <territory name="Norwich"/>
+                <territory name="SZ1" water="true"/>
+                <territory name="SZ2" water="true"/>
+                <territory name="SZ5" water="true"/>
+                <territory name="SZ6" water="true"/>
+                <territory name="Bristol"/>
+                <territory name="SZ3" water="true"/>
+                <territory name="SZ4" water="true"/>
+                <territory name="Leicester"/>
+                <territory name="SZ60" water="true"/>
+                <territory name="SZ61" water="true"/>
+                <territory name="SZ62" water="true"/>
+                <territory name="SZ63" water="true"/>
+                <territory name="Hereford"/>
+                <territory name="Lincoln"/>
+                <territory name="SZ64" water="true"/>
+                <territory name="Kingston"/>
+                <territory name="SZ32" water="true"/>
+        
+                <territory name="SZ33" water="true"/>
+                <territory name="SZ30" water="true"/>
+                <territory name="SZ31" water="true"/>
+                <territory name="Farnham"/>
+                <territory name="Shrewsbury"/>
+                <territory name="SZ38" water="true"/>
+                <territory name="SZ39" water="true"/>
+                <territory name="SZ36" water="true"/>
+                <territory name="SZ37" water="true"/>
+                <territory name="SZ34" water="true"/>
+                <territory name="SZ35" water="true"/>
+                <territory name="Lancaster"/>
+                <territory name="Isle of Man"/>
+                <territory name="SZ41" water="true"/>
+                <territory name="SZ42" water="true"/>
+                <territory name="SZ43" water="true"/>
+                <territory name="SZ44" water="true"/>
+                <territory name="Arundel"/>
+                <territory name="Graham"/>
+                <territory name="SZ40" water="true"/>
+                <territory name="SZ49" water="true"/>
+             
+                <territory name="SZ45" water="true"/>
+                <territory name="SZ46" water="true"/>
+                <territory name="SZ47" water="true"/>
+                <territory name="SZ48" water="true"/>
+                <territory name="Okehampton"/>
+                <territory name="Carlisle"/>
+                <territory name="SZ13" water="true"/>
+                <territory name="SZ12" water="true"/>
+                <territory name="SZ15" water="true"/>
+                <territory name="SZ14" water="true"/>
+                <territory name="SZ17" water="true"/>
+                <territory name="SZ16" water="true"/>
+                <territory name="SZ19" water="true"/>
+                <territory name="SZ18" water="true"/>
+                <territory name="Chester"/>
+                <territory name="Masham"/>
+                <territory name="SZ11" water="true"/>
+                <territory name="SZ10" water="true"/>
+                <territory name="Berwick"/>
+                <territory name="Coventry"/>
+                <territory name="Islay"/>
+                <territory name="SZ26" water="true"/>
+                <territory name="SZ25" water="true"/>
+                <territory name="SZ24" water="true"/>
+                <territory name="SZ23" water="true"/>
+                <territory name="SZ29" water="true"/>
+                <territory name="SZ28" water="true"/>
+                <territory name="SZ27" water="true"/>
+                <territory name="SZ22" water="true"/>
+                <territory name="SZ21" water="true"/>
+                <territory name="SZ20" water="true"/>
+                <territory name="Novantae"/>
+                <territory name="Alnwich"/>
+                <territory name="Exeter"/>
+                <territory name="Rhuddlan"/>
+                <territory name="Lindsey"/>
+                <territory name="Durham"/>
+                <territory name="Corfe"/>
+
+                <!-- Territory Connections -->
+                <connection t1="Les Attaques" t2="Coulogne"/>
+                <connection t1="Calais" t2="Coulogne"/>
+                <connection t1="Calais" t2="SZ50"/>
+                <connection t1="Loch Ness" t2="Macay"/>
+                <connection t1="Loch Ness" t2="Mackenzie"/>
+                <connection t1="Loch Ness" t2="SZ63"/>
+                <connection t1="MacDonell" t2="Ruthven"/>
+                <connection t1="MacDonell" t2="Argyll"/>
+                <connection t1="McDonald" t2="SZ19"/>
+                <connection t1="McDonald" t2="SZ25"/>
+                <connection t1="McDonald" t2="Mackenzie"/>
+                <connection t1="Mackenzie" t2="MacDonell"/>
+                <connection t1="Mackenzie" t2="Argyll"/>
+                <connection t1="McLeod" t2="SZ12"/>
+                <connection t1="McLeod" t2="SZ17"/>
+                <connection t1="McLeod" t2="SZ19"/>
+                <connection t1="Ullapool" t2="Loch Ness"/>
+                <connection t1="Ullapool" t2="Macay"/>
+                <connection t1="Ullapool" t2="Mackenzie"/>
+                <connection t1="Skye" t2="Mackenzie"/>
+                <connection t1="Skye" t2="Ullapool"/>
+                <connection t1="Skye" t2="SZ18"/>
+                <connection t1="Carnegie" t2="Ruthven"/>
+                <connection t1="Carnegie" t2="SZ61"/>
+                <connection t1="Carnegie" t2="SZ60"/>
+                <connection t1="Macay" t2="SZ18"/>
+                <connection t1="Sealtainn" t2="SZ9"/>
+                <connection t1="Sealtainn" t2="SZ6"/>
+                <connection t1="Sealtainn" t2="SZ5"/>
+                <connection t1="Orcades" t2="SZ10"/>
+                <connection t1="Ruthven" t2="SZ61"/>
+                <connection t1="Ruthven" t2="Leslie"/>
+                <connection t1="Fraser" t2="Mackenzie"/>
+                <connection t1="Fraser" t2="SZ63"/>
+                <connection t1="Leslie" t2="Fraser"/>
+                <connection t1="Leslie" t2="Mackenzie"/>
+                <connection t1="Leslie" t2="Carnegie"/>
+                <connection t1="Leslie" t2="MacDonell"/>
+                <connection t1="Leslie" t2="SZ63"/>
+                <connection t1="Leslie" t2="SZ62"/>
+                <connection t1="Leslie" t2="SZ60"/>
+                <connection t1="York" t2="SZ56"/>
+                <connection t1="York" t2="Helmsley"/>
+                <connection t1="York" t2="Kingston"/>
+                <connection t1="York" t2="Newark"/>
+                <connection t1="York" t2="S. Rheged"/>
+                <connection t1="Helmsley" t2="Durham"/>
+                <connection t1="Helmsley" t2="SZ56"/>
+                <connection t1="Carvetii" t2="Preston"/>
+                <connection t1="Carvetii" t2="Helmsley"/>
+                <connection t1="Richmond" t2="Masham"/>
+                <connection t1="Richmond" t2="Helmsley"/>
+                <connection t1="Richmond" t2="Carvetii"/>
+                <connection t1="Preston" t2="Helmsley"/>
+                <connection t1="Preston" t2="York"/>
+                <connection t1="S. Rheged" t2="Newark"/>
+                <connection t1="S. Rheged" t2="Preston"/>
+                <connection t1="Newark" t2="Lincoln"/>
+                <connection t1="Newark" t2="Leicester"/>
+                <connection t1="Pleshey" t2="Framlingham"/>
+                <connection t1="Pleshey" t2="Windsor"/>
+                <connection t1="Pleshey" t2="Rockingham"/>
+                <connection t1="Pleshey" t2="Norwich"/>
+                <connection t1="Thetford" t2="Pleshey"/>
+                <connection t1="Thetford" t2="Norwich"/>
+                <connection t1="Thetford" t2="Lincoln"/>
+                <connection t1="Berwick" t2="Lindsey"/>
+                <connection t1="Framlingham" t2="SZ49"/>
+                <connection t1="Framlingham" t2="SZ48"/>
+                <connection t1="Framlingham" t2="Norwich"/>
+                <connection t1="Windsor" t2="Farnham"/>
+                <connection t1="Windsor" t2="London"/>
+                <connection t1="Windsor" t2="SZ48"/>
+                <connection t1="London" t2="SZ48"/>
+                <connection t1="London" t2="Framlingham"/>
+                <connection t1="London" t2="Pleshey"/>
+                <connection t1="Pevensky" t2="Windsor"/>
+                <connection t1="Pevensky" t2="SZ48"/>
+                <connection t1="Rockingham" t2="Thetford"/>
+                <connection t1="Rockingham" t2="Windsor"/>
+                <connection t1="Chirk" t2="Shrewsbury"/>
+                <connection t1="Chirk" t2="SZ30"/>
+                <connection t1="Chirk" t2="Swansea"/>
+                <connection t1="Chirk" t2="Cardiff"/>
+                <connection t1="Baumaris" t2="Caernarvon"/>
+                <connection t1="Milford Haven" t2="SZ39"/>
+                <connection t1="Milford Haven" t2="SZ30"/>
+                <connection t1="Milford Haven" t2="Cardigan"/>
+                <connection t1="Caernarvon" t2="Chirk"/>
+                <connection t1="Caernarvon" t2="Rhuddlan"/>
+                <connection t1="Caernarvon" t2="SZ30"/>
+                <connection t1="Caernarvon" t2="SZ27"/>
+                <connection t1="Penzance" t2="Plymouth"/>
+                <connection t1="Plymouth" t2="Exeter"/>
+                <connection t1="Plymouth" t2="SZ44"/>
+                <connection t1="Cardiff" t2="Hereford"/>
+                <connection t1="Cardiff" t2="Coventry"/>
+                <connection t1="Cardiff" t2="SZ39"/>
+                <connection t1="Swansea" t2="Milford Haven"/>
+                <connection t1="Swansea" t2="Cardiff"/>
+                <connection t1="Cardigan" t2="SZ30"/>
+                <connection t1="Cardigan" t2="Chirk"/>
+                <connection t1="Cardigan" t2="Swansea"/>
+                <connection t1="SZ18" t2="McLeod"/>
+                <connection t1="SZ50" t2="SZ51"/>
+                <connection t1="SZ51" t2="SZ52"/>
+                <connection t1="SZ54" t2="SZ53"/>
+                <connection t1="SZ55" t2="SZ57"/>
+                <connection t1="SZ55" t2="SZ56"/>
+                <connection t1="SZ55" t2="SZ53"/>
+                <connection t1="SZ55" t2="York"/>
+                <connection t1="SZ55" t2="SZ54"/>
+                <connection t1="SZ52" t2="SZ58"/>
+                
+                <connection t1="SZ25" t2="SZ26"/>
+                <connection t1="SZ53" t2="SZ49"/>
+                <connection t1="SZ53" t2="SZ52"/>
+                <connection t1="SZ53" t2="SZ57"/>
+                <connection t1="SZ53" t2="SZ51"/>
+                <connection t1="SZ58" t2="SZ8"/>
+                <connection t1="SZ58" t2="SZ59"/>
+                <connection t1="SZ58" t2="SZ57"/>
+                <connection t1="Argyll" t2="Graham"/>
+                <connection t1="SZ49" t2="SZ54"/>
+                <connection t1="SZ9" t2="SZ8"/>
+                <connection t1="SZ9" t2="SZ10"/>
+                <connection t1="SZ59" t2="SZ8"/>
+                <connection t1="SZ59" t2="SZ9"/>
+                <connection t1="SZ59" t2="SZ62"/>
+                <connection t1="SZ59" t2="SZ60"/>
+                <connection t1="SZ59" t2="SZ57"/>
+                <connection t1="SZ8" t2="SZ6"/>
+                <connection t1="SZ56" t2="Durham"/>
+                <connection t1="SZ7" t2="SZ8"/>
+                <connection t1="SZ57" t2="SZ56"/>
+                <connection t1="SZ57" t2="SZ52"/>
+                <connection t1="Norwich" t2="SZ49"/>
+                <connection t1="Norwich" t2="SZ54"/>
+                <connection t1="SZ1" t2="SZ2"/>
+                <connection t1="SZ1" t2="SZ14"/>
+                <connection t1="SZ1" t2="SZ13"/>
+                <connection t1="SZ2" t2="SZ3"/>
+                <connection t1="SZ2" t2="SZ13"/>
+                <connection t1="SZ2" t2="SZ12"/>
+                <connection t1="SZ5" t2="SZ6"/>
+                <connection t1="SZ6" t2="SZ7"/>
+                <connection t1="SZ6" t2="SZ9"/>
+                <connection t1="Bristol" t2="Farnham"/>
+                <connection t1="Bristol" t2="Corfe"/>
+                <connection t1="SZ3" t2="SZ4"/>
+                <connection t1="SZ3" t2="SZ12"/>
+                <connection t1="SZ4" t2="SZ5"/>
+                <connection t1="SZ4" t2="SZ11"/>
+                <connection t1="Leicester" t2="Lincoln"/>
+                <connection t1="Leicester" t2="Thetford"/>
+                <connection t1="Leicester" t2="Rockingham"/>
+                <connection t1="SZ60" t2="SZ62"/>
+                <connection t1="SZ60" t2="SZ57"/>
+                <connection t1="SZ60" t2="SZ56"/>
+                <connection t1="SZ61" t2="SZ60"/>
+                <connection t1="SZ61" t2="SZ56"/>
+                <connection t1="SZ62" t2="SZ9"/>
+                <connection t1="SZ62" t2="SZ10"/>
+                <connection t1="SZ62" t2="Orcades"/>
+                <connection t1="SZ63" t2="SZ62"/>
+                <connection t1="SZ63" t2="Orcades"/>
+                <connection t1="SZ63" t2="Macay"/>
+                <connection t1="Hereford" t2="Chirk"/>
+                <connection t1="Hereford" t2="Shrewsbury"/>
+                <connection t1="Hereford" t2="Coventry"/>
+                <connection t1="Lincoln" t2="SZ54"/>
+                <connection t1="Lincoln" t2="Norwich"/>
+                <connection t1="SZ64" t2="SZ11"/>
+                <connection t1="SZ64" t2="SZ63"/>
+                <connection t1="SZ64" t2="Orcades"/>
+                <connection t1="SZ64" t2="Macay"/>
+                <connection t1="Kingston" t2="SZ55"/>
+                <connection t1="Kingston" t2="Newark"/>
+                <connection t1="Kingston" t2="Lincoln"/>
+                <connection t1="Kingston" t2="SZ54"/>
+                <connection t1="SZ32" t2="SZ31"/>
+                <connection t1="SZ33" t2="SZ37"/>
+                <connection t1="SZ33" t2="SZ32"/>
+                <connection t1="SZ33" t2="SZ34"/>
+                
+                <connection t1="SZ30" t2="Baumaris"/>
+                <connection t1="SZ31" t2="SZ29"/>
+                <connection t1="SZ31" t2="SZ30"/>
+                <connection t1="SZ31" t2="SZ39"/>
+                <connection t1="SZ31" t2="Milford Haven"/>
+                <connection t1="Farnham" t2="Rockingham"/>
+                <connection t1="Farnham" t2="Arundel"/>
+                <connection t1="Shrewsbury" t2="Leicester"/>
+                <connection t1="SZ38" t2="Penzance"/>
+                <connection t1="SZ38" t2="SZ39"/>
+                <connection t1="SZ38" t2="SZ32"/>
+                <connection t1="SZ38" t2="SZ31"/>
+                <connection t1="SZ38" t2="SZ37"/>
+                <connection t1="SZ38" t2="SZ42"/>
+                <connection t1="SZ39" t2="Swansea"/>
+                <connection t1="SZ39" t2="Bristol"/>
+                <connection t1="SZ39" t2="Okehampton"/>
+                <connection t1="SZ39" t2="Plymouth"/>
+                <connection t1="SZ39" t2="Coventry"/>
+                <connection t1="SZ36" t2="SZ40"/>
+                <connection t1="SZ36" t2="SZ37"/>
+                 <connection t1="SZ25" t2="Mackenzie"/>
+                <connection t1="SZ36" t2="SZ33"/>
+                <connection t1="SZ37" t2="SZ32"/>
+                <connection t1="SZ37" t2="SZ41"/>
+                  <connection t1="SZ63" t2="SZ64"/>
+                  <connection t1="SZ30" t2="SZ27"/>
+                <connection t1="SZ34" t2="SZ35"/>
+                <connection t1="SZ35" t2="SZ22"/>
+                <connection t1="SZ35" t2="SZ23"/>
+                <connection t1="SZ35" t2="SZ33"/>
+                <connection t1="Lancaster" t2="Richmond"/>
+                <connection t1="SZ41" t2="SZ42"/>
+                <connection t1="SZ42" t2="Penzance"/>
+                <connection t1="SZ42" t2="Plymouth"/>
+                <connection t1="SZ43" t2="SZ42"/>
+                <connection t1="SZ43" t2="SZ41"/>
+                <connection t1="SZ43" t2="SZ44"/>
+                <connection t1="SZ43" t2="SZ45"/>
+                <connection t1="SZ44" t2="SZ46"/>
+                <connection t1="SZ44" t2="Corfe"/>
+                <connection t1="SZ44" t2="SZ42"/>
+                <connection t1="Arundel" t2="Pevensky"/>
+                <connection t1="Arundel" t2="Windsor"/>
+                <connection t1="Arundel" t2="SZ47"/>
+                <connection t1="Graham" t2="Lindsey"/>
+                <connection t1="Graham" t2="MacDonell"/>
+                <connection t1="Graham" t2="Alnwich"/>
+                <connection t1="SZ40" t2="SZ41"/>
+                <connection t1="SZ40" t2="SZ37"/>
+                <connection t1="SZ49" t2="SZ50"/>
+                <connection t1="SZ49" t2="SZ47"/>
+                <connection t1="SZ49" t2="SZ51"/>
+              
+               <connection t1="Bristol" t2="Exeter"/>
+                <connection t1="SZ45" t2="SZ44"/>
+                <connection t1="SZ45" t2="SZ46"/>
+                <connection t1="SZ45" t2="SZ47"/>
+                <connection t1="SZ46" t2="Arundel"/>
+                <connection t1="SZ46" t2="SZ47"/>
+                <connection t1="SZ47" t2="Calais"/>
+                <connection t1="SZ47" t2="SZ50"/>
+                <connection t1="SZ47" t2="SZ48"/>
+                <connection t1="SZ47" t2="Pevensky"/>
+                <connection t1="SZ48" t2="SZ49"/>
+                <connection t1="Okehampton" t2="Bristol"/>
+                <connection t1="Okehampton" t2="Plymouth"/>
+                <connection t1="Carlisle" t2="Alnwich"/>
+                <connection t1="Carlisle" t2="Graham"/>
+                <connection t1="Carlisle" t2="Lancaster"/>
+                <connection t1="SZ13" t2="SZ12"/>
+                <connection t1="SZ12" t2="SZ11"/>
+                <connection t1="SZ12" t2="Macay"/>
+                <connection t1="SZ12" t2="SZ64"/>
+                <connection t1="SZ12" t2="SZ17"/>
+                <connection t1="SZ15" t2="SZ22"/>
+                <connection t1="SZ14" t2="SZ13"/>
+                <connection t1="SZ14" t2="SZ15"/>
+                <connection t1="SZ14" t2="SZ16"/>
+                <connection t1="SZ17" t2="SZ20"/>
+                <connection t1="SZ17" t2="SZ19"/>
+                <connection t1="SZ17" t2="SZ13"/>
+                <connection t1="SZ16" t2="SZ21"/>
+                <connection t1="SZ16" t2="SZ15"/>
+                <connection t1="SZ16" t2="SZ20"/>
+                <connection t1="SZ16" t2="SZ17"/>
+                <connection t1="SZ16" t2="SZ13"/>
+                <connection t1="SZ19" t2="Skye"/>
+                <connection t1="SZ19" t2="Mackenzie"/>
+                <connection t1="SZ63" t2="Mackenzie"/>
+                <connection t1="SZ19" t2="SZ20"/>
+                <connection t1="SZ19" t2="SZ25"/>
+                <connection t1="SZ18" t2="SZ19"/>
+                <connection t1="SZ18" t2="McLeod"/>
+                <connection t1="SZ18" t2="Ullapool"/>
+                <connection t1="SZ18" t2="SZ12"/>
+                <connection t1="Chester" t2="S. Rheged"/>
+                <connection t1="Chester" t2="Newark"/>
+                <connection t1="Chester" t2="Shrewsbury"/>
+                <connection t1="Chester" t2="Chirk"/>
+                <connection t1="Chester" t2="Leicester"/>
+                <connection t1="Masham" t2="Lancaster"/>
+                <connection t1="Masham" t2="Alnwich"/>
+                <connection t1="Masham" t2="Berwick"/>
+                <connection t1="Masham" t2="Durham"/>
+                <connection t1="Masham" t2="Helmsley"/>
+                <connection t1="SZ11" t2="SZ3"/>
+                <connection t1="SZ11" t2="SZ5"/>
+                <connection t1="SZ11" t2="SZ10"/>
+                <connection t1="SZ10" t2="SZ5"/>
+                <connection t1="SZ10" t2="Sealtainn"/>
+                <connection t1="SZ10" t2="SZ64"/>
+                <connection t1="Berwick" t2="Durham"/>
+                <connection t1="Berwick" t2="SZ61"/>
+                <connection t1="Berwick" t2="Graham"/>
+                <connection t1="Coventry" t2="Leicester"/>
+                <connection t1="Coventry" t2="Rockingham"/>
+                <connection t1="Coventry" t2="Farnham"/>
+                <connection t1="Coventry" t2="Bristol"/>
+                <connection t1="Coventry" t2="Shrewsbury"/>
+                <connection t1="Islay" t2="SZ25"/>
+                <connection t1="Islay" t2="SZ26"/>
+                <connection t1="Islay" t2="SZ24"/>
+                <connection t1="SZ26" t2="Carlisle"/>
+                <connection t1="SZ26" t2="Argyll"/>
+                <connection t1="SZ26" t2="Graham"/>
+                
+                <connection t1="SZ25" t2="SZ20"/>
+                <connection t1="SZ25" t2="Argyll"/>
+                <connection t1="SZ24" t2="SZ20"/>
+                <connection t1="SZ24" t2="SZ25"/>
+                <connection t1="SZ24" t2="SZ26"/>
+                <connection t1="SZ23" t2="SZ24"/>
+                <connection t1="SZ23" t2="SZ21"/>
+                <connection t1="SZ29" t2="SZ30"/>
+                <connection t1="SZ28" t2="SZ30"/>
+                <connection t1="SZ28" t2="Baumaris"/>
+                <connection t1="SZ28" t2="Isle of Man"/>
+                <connection t1="SZ28" t2="SZ27"/>
+                <connection t1="SZ28" t2="SZ26"/>
+                <connection t1="SZ28" t2="SZ29"/>
+                <connection t1="SZ27" t2="Preston"/>
+                <connection t1="SZ27" t2="Carvetii"/>
+                <connection t1="SZ27" t2="Richmond"/>
+                <connection t1="SZ27" t2="Novantae"/>
+                <connection t1="SZ26" t2="Novantae"/>
+                <connection t1="SZ27" t2="Lancaster"/>
+                <connection t1="SZ27" t2="S. Rheged"/>
+                <connection t1="SZ27" t2="Rhuddlan"/>
+                <connection t1="SZ27" t2="Isle of Man"/>
+                <connection t1="SZ27" t2="Baumaris"/>
+                <connection t1="SZ27" t2="Chester"/>
+                <connection t1="SZ27" t2="SZ26"/>
+                <connection t1="SZ22" t2="SZ23"/>
+                <connection t1="SZ21" t2="SZ20"/>
+                <connection t1="SZ21" t2="SZ15"/>
+                <connection t1="SZ21" t2="SZ22"/>
+                <connection t1="Novantae" t2="Carlisle"/>
+                <connection t1="Lancaster" t2="Novantae"/>
+                <connection t1="Alnwich" t2="Berwick"/>
+                <connection t1="Exeter" t2="SZ44"/>
+                <connection t1="Exeter" t2="Okehampton"/>
+                <connection t1="Exeter" t2="Corfe"/>
+                <connection t1="Rhuddlan" t2="Chirk"/>
+                <connection t1="Rhuddlan" t2="Chester"/>
+                <connection t1="Lindsey" t2="SZ61"/>
+                <connection t1="Lindsey" t2="MacDonell"/>
+                <connection t1="Durham" t2="SZ61"/>
+                <connection t1="Corfe" t2="SZ46"/>
+                <connection t1="Corfe" t2="Arundel"/>
+                <connection t1="Corfe" t2="Farnham"/>
+        </map>
+        <resourceList>
+                
+                <resource name="PUs"/>
+        </resourceList>
+        <playerList>
+                <!-- In turn order -->
+                <player name="Percy" optional="false"/>
+                <player name="Plantagenet" optional="false"/>
+                <player name="Neville" optional="false"/>
+                <player name="Cockburn" optional="false"/>
+                <player name="McLeod" optional="false"/>
+                <player name="Fitzalan" optional="false"/>
+                <player name="Talbot" optional="false"/>
+                <player name="Courtney" optional="false"/>
+                
+                <alliance player="Percy" alliance="Percy"/>
+                <alliance player="McLeod" alliance="McLeod"/>
+                <alliance player="Cockburn" alliance="Cockburn"/>
+                <alliance player="Neville" alliance="Neville"/>
+                <alliance player="Plantagenet" alliance="Plantagenet"/>
+                <alliance player="Fitzalan" alliance="Fitzalan"/>
+                <alliance player="Talbot" alliance="Talbot"/>
+                <alliance player="Courtney" alliance="Courtney"/>
+               
+        </playerList>
+        <unitList>
+                
+                <unit name="general"/>
+                <unit name="chariot"/>
+                <unit name="lightcavalry"/>
+                <unit name="cavalry"/>
+                <unit name="slingers"/>
+                <unit name="skirmishers"/>
+                <unit name="archers"/>
+                <unit name="warband"/>
+                <unit name="swordsmen"/>
+                <unit name="warlord"/>
+                <unit name="city"/>
+                <unit name="fort"/>
+                <unit name="cog"/>
+                <unit name="KingRichardW"/>
+                <unit name="EdwardW"/>
+                <unit name="EdmundW"/>
+                <unit name="GeorgeW"/>
+                <unit name="RichardW"/>
+                <unit name="KingHenryR"/>
+                <unit name="MargaretR"/>
+                <unit name="EdwardR"/>
+                <unit name="BeaufortR"/>
+                <unit name="Catapult"/>
+                 <unit name="archbishop"/>
+                 <unit name="cathedral"/>
+                
+                
+        </unitList>
+        <gamePlay>
+                <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+                <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+                <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+                
+                <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+                <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+                <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+                <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+                <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+                <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+                <sequence>
+                        <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+                        <step name="PercyBid" delegate="bid" player="Percy" maxRunCount="1"/>
+                        <step name="PercyBidPlace" delegate="placeBid" player="Percy" maxRunCount="1"/>
+                        <step name="McLeodBid" delegate="bid" player="McLeod" maxRunCount="1"/>
+                        <step name="McLeodBidPlace" delegate="placeBid" player="McLeod" maxRunCount="1"/>
+                        <step name="CockburnBid" delegate="bid" player="Cockburn" maxRunCount="1"/>
+                        <step name="CockburnBidPlace" delegate="placeBid" player="Cockburn" maxRunCount="1"/>
+                        <step name="NevilleBid" delegate="bid" player="Neville" maxRunCount="1"/>
+                        <step name="NevilleBidPlace" delegate="placeBid" player="Neville" maxRunCount="1"/>
+                        <step name="PlantagenetBid" delegate="bid" player="Plantagenet" maxRunCount="1"/>
+                        <step name="PlantagenetBidPlace" delegate="placeBid" player="Plantagenet" maxRunCount="1"/>
+                        <step name="FitzalanBid" delegate="bid" player="Fitzalan" maxRunCount="1"/>
+                        <step name="FitzalanBidPlace" delegate="placeBid" player="Fitzalan" maxRunCount="1"/>
+                        <step name="TalbotBid" delegate="bid" player="Talbot" maxRunCount="1"/>
+                        <step name="TalbotBidPlace" delegate="placeBid" player="Talbot" maxRunCount="1"/>
+                        <step name="CourtneyBid" delegate="bid" player="Courtney" maxRunCount="1"/>
+                        <step name="CourtneyBidPlace" delegate="placeBid" player="Courtney" maxRunCount="1"/>
+                        
+                        
+                        <step name="PercyPurchase" delegate="purchase" player="Percy"/>
+                        <step name="PercyCombatMove" delegate="move" player="Percy"/>
+                        <step name="PercyBattle" delegate="battle" player="Percy"/>
+                        <step name="PercyNonCombatMove" delegate="move" player="Percy" display="Non Combat Move"/>
+                        <step name="PercyPlace" delegate="place" player="Percy"/>
+                        <step name="PercyEndTurn" delegate="endTurn" player="Percy"/>
+
+                        
+                        <step name="PlantagenetPurchase" delegate="purchase" player="Plantagenet"/>
+                        <step name="PlantagenetCombatMove" delegate="move" player="Plantagenet"/>
+                        <step name="PlantagenetBattle" delegate="battle" player="Plantagenet"/>
+                        <step name="PlantagenetNonCombatMove" delegate="move" player="Plantagenet" display="Non Combat Move"/>
+                        <step name="PlantagenetPlace" delegate="place" player="Plantagenet"/>
+                        <step name="PlantagenetEndTurn" delegate="endTurn" player="Plantagenet"/>
+
+                        
+                        <step name="NevillePurchase" delegate="purchase" player="Neville"/>
+                        <step name="NevilleCombatMove" delegate="move" player="Neville"/>
+                        <step name="NevilleBattle" delegate="battle" player="Neville"/>
+                        <step name="NevilleNonCombatMove" delegate="move" player="Neville" display="Non Combat Move"/>
+                        <step name="NevillePlace" delegate="place" player="Neville"/>
+                        <step name="NevilleEndTurn" delegate="endTurn" player="Neville"/>
+
+                        
+                        <step name="CockburnPurchase" delegate="purchase" player="Cockburn"/>
+                        <step name="CockburnCombatMove" delegate="move" player="Cockburn"/>
+                        <step name="CockburnBattle" delegate="battle" player="Cockburn"/>
+                        <step name="CockburnNonCombatMove" delegate="move" player="Cockburn" display="Non Combat Move"/>
+                        <step name="CockburnPlace" delegate="place" player="Cockburn"/>
+                        <step name="CockburnEndTurn" delegate="endTurn" player="Cockburn"/>
+
+                       
+                        <step name="McLeodPurchase" delegate="purchase" player="McLeod"/>
+                        <step name="McLeodCombatMove" delegate="move" player="McLeod"/>
+                        <step name="McLeodBattle" delegate="battle" player="McLeod"/>
+                        <step name="McLeodNonCombatMove" delegate="move" player="McLeod" display="Non Combat Move"/>
+                        <step name="McLeodPlace" delegate="place" player="McLeod"/>
+                        <step name="McLeodEndTurn" delegate="endTurn" player="McLeod"/>
+                        
+                        
+                        <step name="FitzalanPurchase" delegate="purchase" player="Fitzalan"/>
+                        <step name="FitzalanCombatMove" delegate="move" player="Fitzalan"/>
+                        <step name="FitzalanBattle" delegate="battle" player="Fitzalan"/>
+                        <step name="FitzalanNonCombatMove" delegate="move" player="Fitzalan" display="Non Combat Move"/>
+                        <step name="FitzalanPlace" delegate="place" player="Fitzalan"/>
+                        <step name="FitzalanEndTurn" delegate="endTurn" player="Fitzalan"/>
+                        
+                        
+                        <step name="TalbotPurchase" delegate="purchase" player="Talbot"/>
+                        <step name="TalbotCombatMove" delegate="move" player="Talbot"/>
+                        <step name="TalbotBattle" delegate="battle" player="Talbot"/>
+                        <step name="TalbotNonCombatMove" delegate="move" player="Talbot" display="Non Combat Move"/>
+                        <step name="TalbotPlace" delegate="place" player="Talbot"/>
+                        <step name="TalbotEndTurn" delegate="endTurn" player="Talbot"/>
+                        
+                        
+                        <step name="CourtneyPurchase" delegate="purchase" player="Courtney"/>
+                        <step name="CourtneyCombatMove" delegate="move" player="Courtney"/>
+                        <step name="CourtneyBattle" delegate="battle" player="Courtney"/>
+                        <step name="CourtneyNonCombatMove" delegate="move" player="Courtney" display="Non Combat Move"/>
+                        <step name="CourtneyPlace" delegate="place" player="Courtney"/>
+                        <step name="CourtneyEndTurn" delegate="endTurn" player="Courtney"/>
+
+                        
+
+                        <step name="endRoundStep" delegate="endRound"/>
+                </sequence>
+        </gamePlay>
+        <production>
+                <!-- Unit Production Cost -->
+               
+                        
+                                        <productionRule name="buygeneral">
+                        <cost resource="PUs" quantity="23"/>
+                        <result resourceOrUnit="general" quantity="1"/>
+                </productionRule>
+                <productionRule name="buychariot">
+                        <cost resource="PUs" quantity="10"/>
+                        <result resourceOrUnit="chariot" quantity="1"/>
+                </productionRule>
+                <productionRule name="buylightcavalry">
+                        <cost resource="PUs" quantity="4"/>
+                        <result resourceOrUnit="lightcavalry" quantity="1"/>
+                </productionRule>
+                <productionRule name="buycavalry">
+                        <cost resource="PUs" quantity="5"/>
+                        <result resourceOrUnit="cavalry" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyCatapult">
+                        <cost resource="PUs" quantity="8"/>
+                        <result resourceOrUnit="Catapult" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyslingers">
+                        <cost resource="PUs" quantity="5"/>
+                        <result resourceOrUnit="slingers" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyskirmishers">
+                        <cost resource="PUs" quantity="3"/>
+                        <result resourceOrUnit="skirmishers" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyarchers">
+                        <cost resource="PUs" quantity="6"/>
+                        <result resourceOrUnit="archers" quantity="1"/>
+                </productionRule>
+                <productionRule name="buywarband">
+                        <cost resource="PUs" quantity="4"/>
+                        <result resourceOrUnit="warband" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyswordsmen">
+                        <cost resource="PUs" quantity="7"/>
+                        <result resourceOrUnit="swordsmen" quantity="1"/>
+                </productionRule>
+                <productionRule name="buycity">
+                        <cost resource="PUs" quantity="15"/>
+                        <result resourceOrUnit="city" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyfort">
+                        <cost resource="PUs" quantity="9"/>
+                        <result resourceOrUnit="fort" quantity="1"/>
+                </productionRule>
+                <productionRule name="buycathedral">
+                        <cost resource="PUs" quantity="9"/>
+                        <result resourceOrUnit="cathedral" quantity="1"/>
+
+              </productionRule>
+                <productionRule name="buycog">
+                        <cost resource="PUs" quantity="6"/>
+                        <result resourceOrUnit="cog" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buywarlord">
+                        <cost resource="PUs" quantity="20"/>
+                        <result resourceOrUnit="warlord" quantity="1"/>
+              </productionRule>
+              
+               
+                        <productionRule name="buyKingRichardW">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="KingRichardW" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyEdwardW">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="EdwardW" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyEdmundW">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="EdmundW" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyGeorgeW">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="GeorgeW" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyRichardW">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="RichardW" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyKingHenryR">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="KingHenryR" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyMargaretR">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="MargaretR" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyEdwardR">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="EdwardR" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyBeaufortR">
+                        <cost resource="PUs" quantity="3000"/>
+                        <result resourceOrUnit="BeaufortR" quantity="1"/>
+                        </productionRule>
+                        <productionRule name="buyarchbishop">
+                        <cost resource="PUs" quantity="8"/>
+                        <result resourceOrUnit="archbishop" quantity="1"/>
+
+              </productionRule>
+              
+                                        <productionFrontier name="PercyFrontier">
+                        <frontierRules name="buychariot"/>
+                        <frontierRules name="buylightcavalry"/>
+                        <frontierRules name="buycavalry"/>
+                        <frontierRules name="buyslingers"/>
+                        <frontierRules name="buyskirmishers"/>
+                        <frontierRules name="buyarchers"/>
+                        <frontierRules name="buywarband"/>
+                        <frontierRules name="buyswordsmen"/>
+                        <frontierRules name="buycity"/>
+                        <frontierRules name="buycog"/>
+                        <frontierRules name="buywarlord"/>
+                        <frontierRules name="buyCatapult"/>
+                        <frontierRules name="buygeneral"/>
+                        <frontierRules name="buyKingRichardW"/>
+                        <frontierRules name="buyEdwardW"/>
+                        <frontierRules name="buyEdmundW"/>
+                        <frontierRules name="buyGeorgeW"/>
+                        <frontierRules name="buyRichardW"/>
+                        <frontierRules name="buyKingHenryR"/>
+                        <frontierRules name="buyMargaretR"/>
+                        <frontierRules name="buyEdwardR"/>
+                        <frontierRules name="buyBeaufortR"/>
+                        <frontierRules name="buyarchbishop"/>
+                        <frontierRules name="buycathedral"/>
+                        <frontierRules name="buyfort"/>
+                        
+                </productionFrontier>
+                
+                <productionFrontier name="PlantagenetFrontier">
+                        <frontierRules name="buychariot"/>
+                        <frontierRules name="buylightcavalry"/>
+                        <frontierRules name="buycavalry"/>
+                        <frontierRules name="buyslingers"/>
+                        <frontierRules name="buyskirmishers"/>
+                        <frontierRules name="buyarchers"/>
+                        <frontierRules name="buywarband"/>
+                        <frontierRules name="buyswordsmen"/>
+                        <frontierRules name="buycity"/>
+                        <frontierRules name="buycog"/>
+                        <frontierRules name="buywarlord"/>
+                        <frontierRules name="buyCatapult"/>
+                        <frontierRules name="buygeneral"/>
+                        <frontierRules name="buyKingRichardW"/>
+                        <frontierRules name="buyEdwardW"/>
+                        <frontierRules name="buyEdmundW"/>
+                        <frontierRules name="buyGeorgeW"/>
+                        <frontierRules name="buyRichardW"/>
+                        <frontierRules name="buyKingHenryR"/>
+                        <frontierRules name="buyMargaretR"/>
+                        <frontierRules name="buyEdwardR"/>
+                        <frontierRules name="buyBeaufortR"/>
+                        <frontierRules name="buyarchbishop"/>
+                        <frontierRules name="buycathedral"/>
+                        <frontierRules name="buyfort"/>
+                </productionFrontier>
+                <productionFrontier name="NevilleFrontier">
+                        <frontierRules name="buychariot"/>
+                        <frontierRules name="buylightcavalry"/>
+                        <frontierRules name="buycavalry"/>
+                        <frontierRules name="buyslingers"/>
+                        <frontierRules name="buyskirmishers"/>
+                        <frontierRules name="buyarchers"/>
+                        <frontierRules name="buywarband"/>
+                        <frontierRules name="buyswordsmen"/>
+                        <frontierRules name="buycity"/>
+                        <frontierRules name="buycog"/>
+                        <frontierRules name="buywarlord"/>
+                        <frontierRules name="buyCatapult"/>
+                        <frontierRules name="buygeneral"/>
+                        <frontierRules name="buyKingRichardW"/>
+                        <frontierRules name="buyEdwardW"/>
+                        <frontierRules name="buyEdmundW"/>
+                        <frontierRules name="buyGeorgeW"/>
+                        <frontierRules name="buyRichardW"/>
+                        <frontierRules name="buyKingHenryR"/>
+                        <frontierRules name="buyMargaretR"/>
+                        <frontierRules name="buyEdwardR"/>
+                        <frontierRules name="buyBeaufortR"/>
+                        <frontierRules name="buyarchbishop"/>
+                        <frontierRules name="buycathedral"/>
+                        <frontierRules name="buyfort"/>
+                </productionFrontier>
+                <productionFrontier name="CockburnFrontier">
+                        <frontierRules name="buychariot"/>
+                        <frontierRules name="buylightcavalry"/>
+                        <frontierRules name="buycavalry"/>
+                        <frontierRules name="buyslingers"/>
+                        <frontierRules name="buyskirmishers"/>
+                        <frontierRules name="buyarchers"/>
+                        <frontierRules name="buywarband"/>
+                        <frontierRules name="buyswordsmen"/>
+                        <frontierRules name="buycity"/>
+                        <frontierRules name="buycog"/>
+                        <frontierRules name="buywarlord"/>
+                        <frontierRules name="buyCatapult"/>
+                        <frontierRules name="buygeneral"/>
+                        <frontierRules name="buyKingRichardW"/>
+                        <frontierRules name="buyEdwardW"/>
+                        <frontierRules name="buyEdmundW"/>
+                        <frontierRules name="buyGeorgeW"/>
+                        <frontierRules name="buyRichardW"/>
+                        <frontierRules name="buyKingHenryR"/>
+                        <frontierRules name="buyMargaretR"/>
+                        <frontierRules name="buyEdwardR"/>
+                        <frontierRules name="buyBeaufortR"/>
+                        <frontierRules name="buyarchbishop"/>
+                        <frontierRules name="buycathedral"/>
+                        <frontierRules name="buyfort"/>
+                </productionFrontier>
+                <productionFrontier name="McLeodFrontier">
+                        <frontierRules name="buychariot"/>
+                        <frontierRules name="buylightcavalry"/>
+                        <frontierRules name="buycavalry"/>
+                        <frontierRules name="buyslingers"/>
+                        <frontierRules name="buyskirmishers"/>
+                        <frontierRules name="buyarchers"/>
+                        <frontierRules name="buywarband"/>
+                        <frontierRules name="buyswordsmen"/>
+                        <frontierRules name="buycity"/>
+                        <frontierRules name="buycog"/>
+                        <frontierRules name="buywarlord"/>
+                        <frontierRules name="buyCatapult"/>
+                        <frontierRules name="buygeneral"/>
+                        <frontierRules name="buyKingRichardW"/>
+                        <frontierRules name="buyEdwardW"/>
+                        <frontierRules name="buyEdmundW"/>
+                        <frontierRules name="buyGeorgeW"/>
+                        <frontierRules name="buyRichardW"/>
+                        <frontierRules name="buyKingHenryR"/>
+                        <frontierRules name="buyMargaretR"/>
+                        <frontierRules name="buyEdwardR"/>
+                        <frontierRules name="buyBeaufortR"/>
+                        <frontierRules name="buyarchbishop"/>
+                        <frontierRules name="buycathedral"/>
+                        <frontierRules name="buyfort"/>
+                </productionFrontier>
+                <productionFrontier name="FitzalanFrontier">
+                        <frontierRules name="buychariot"/>
+                        <frontierRules name="buylightcavalry"/>
+                        <frontierRules name="buycavalry"/>
+                        <frontierRules name="buyslingers"/>
+                        <frontierRules name="buyskirmishers"/>
+                        <frontierRules name="buyarchers"/>
+                        <frontierRules name="buywarband"/>
+                        <frontierRules name="buyswordsmen"/>
+                        <frontierRules name="buycity"/>
+                        <frontierRules name="buycog"/>
+                        <frontierRules name="buywarlord"/>
+                        <frontierRules name="buyCatapult"/>
+                        <frontierRules name="buygeneral"/>
+                        <frontierRules name="buyKingRichardW"/>
+                        <frontierRules name="buyEdwardW"/>
+                        <frontierRules name="buyEdmundW"/>
+                        <frontierRules name="buyGeorgeW"/>
+                        <frontierRules name="buyRichardW"/>
+                        <frontierRules name="buyKingHenryR"/>
+                        <frontierRules name="buyMargaretR"/>
+                        <frontierRules name="buyEdwardR"/>
+                        <frontierRules name="buyBeaufortR"/>
+                        <frontierRules name="buyarchbishop"/>
+                        <frontierRules name="buycathedral"/>
+                        <frontierRules name="buyfort"/>
+                </productionFrontier>
+                <productionFrontier name="CourtneyFrontier">
+                        <frontierRules name="buychariot"/>
+                        <frontierRules name="buylightcavalry"/>
+                        <frontierRules name="buycavalry"/>
+                        <frontierRules name="buyslingers"/>
+                        <frontierRules name="buyskirmishers"/>
+                        <frontierRules name="buyarchers"/>
+                        <frontierRules name="buywarband"/>
+                        <frontierRules name="buyswordsmen"/>
+                        <frontierRules name="buycity"/>
+                        <frontierRules name="buycog"/>
+                        <frontierRules name="buywarlord"/>
+                        <frontierRules name="buyCatapult"/>
+                        <frontierRules name="buygeneral"/>
+                        <frontierRules name="buyKingRichardW"/>
+                        <frontierRules name="buyEdwardW"/>
+                        <frontierRules name="buyEdmundW"/>
+                        <frontierRules name="buyGeorgeW"/>
+                        <frontierRules name="buyRichardW"/>
+                        <frontierRules name="buyKingHenryR"/>
+                        <frontierRules name="buyMargaretR"/>
+                        <frontierRules name="buyEdwardR"/>
+                        <frontierRules name="buyBeaufortR"/>
+                        <frontierRules name="buyarchbishop"/>
+                        <frontierRules name="buycathedral"/>
+                        <frontierRules name="buyfort"/>
+                        </productionFrontier>
+                        <productionFrontier name="TalbotFrontier">
+                        <frontierRules name="buychariot"/>
+                        <frontierRules name="buylightcavalry"/>
+                        <frontierRules name="buycavalry"/>
+                        <frontierRules name="buyslingers"/>
+                        <frontierRules name="buyskirmishers"/>
+                        <frontierRules name="buyarchers"/>
+                        <frontierRules name="buywarband"/>
+                        <frontierRules name="buyswordsmen"/>
+                        <frontierRules name="buycity"/>
+                        <frontierRules name="buycog"/>
+                        <frontierRules name="buywarlord"/>
+                        <frontierRules name="buyCatapult"/>
+                        <frontierRules name="buygeneral"/>
+                        <frontierRules name="buyKingRichardW"/>
+                        <frontierRules name="buyEdwardW"/>
+                        <frontierRules name="buyEdmundW"/>
+                        <frontierRules name="buyGeorgeW"/>
+                        <frontierRules name="buyRichardW"/>
+                        <frontierRules name="buyKingHenryR"/>
+                        <frontierRules name="buyMargaretR"/>
+                        <frontierRules name="buyEdwardR"/>
+                        <frontierRules name="buyBeaufortR"/>
+                        <frontierRules name="buyarchbishop"/>
+                        <frontierRules name="buycathedral"/>
+                        <frontierRules name="buyfort"/>
+                </productionFrontier>
+                
+                <playerProduction player="Percy" frontier="PercyFrontier"/>
+                <playerProduction player="McLeod" frontier="McLeodFrontier"/>
+                <playerProduction player="Cockburn" frontier="CockburnFrontier"/>
+                <playerProduction player="Neville" frontier="NevilleFrontier"/>
+                <playerProduction player="Plantagenet" frontier="PlantagenetFrontier"/>
+                <playerProduction player="Fitzalan" frontier="FitzalanFrontier"/>
+                <playerProduction player="Talbot" frontier="TalbotFrontier"/>
+                <playerProduction player="Courtney" frontier="CourtneyFrontier"/>
+        </production>
+        <!-- ======================================= TECHNOLOGY ======================================= -->
+<!-- below removes the Tech grid on the Players tab & no tech properties defined -->
+<technology>
+</technology>
+       <attachmentList>
+                    
+<attachment name="unitAttachment" attachTo="general" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="2"/>
+                         <option name="attack" value="5"/>
+                         <option name="defense" value="4"/>
+                         <option name="canBlitz" value="true"/>
+                         <option name="isFactory" value="true"/>
+                         <option name="transportCost" value="3"/>
+          
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="warlord" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="2"/>
+                         <option name="attack" value="4"/>
+                         <option name="defense" value="4"/>
+                         <option name="canBlitz" value="true"/>
+                         <option name="isFactory" value="true"/>
+                         <option name="transportCost" value="3"/>
+                         
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="chariot" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="2"/>
+                         <option name="attack" value="4"/>
+                         <option name="defense" value="4"/>
+                         <option name="canBlitz" value="true"/>
+                         <option name="artillery" value="true"/>
+                         <option name="transportCost" value="3"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="lightcavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="2"/>
+                         <option name="attack" value="1"/>
+                         <option name="defense" value="1"/>
+                         <option name="canBlitz" value="true"/>
+                         <option name="transportCost" value="3"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="2"/>
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="2"/>
+                         <option name="canBlitz" value="true"/>
+                         <option name="transportCost" value="3"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="slingers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="1"/>
+                         <option name="defense" value="1"/>
+                         <option name="artillery" value="true"/>
+                         <option name="transportCost" value="2"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="skirmishers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="1"/>
+                         <option name="defense" value="1"/>
+                         <option name="transportCost" value="2"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="archers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="1"/>
+                         <option name="defense" value="3"/>
+                         <option name="artillery" value="true"/>
+                         <option name="transportCost" value="2"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="Catapult" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="1"/>
+                         <option name="artillery" value="true"/>
+                         <option name="transportCost" value="3"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="warband" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="1"/>
+                         <option name="defense" value="2"/>
+                         <option name="artillerySupportable" value="true"/>
+                         <option name="transportCost" value="2"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="swordsmen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         <option name="artillerySupportable" value="true"/>
+                         <option name="transportCost" value="2"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="archbishop" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="3"/>
+                         <option name="artillerySupportable" value="true"/>
+                         <option name="transportCost" value="2"/>
+                         <option name="createsResourcesList" value="-1:PUs"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="KingRichardW" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                  
+                        <option name="transportCost" value="2"/>
+                        <option name="isInfrastructure" value="true"/>
+                        
+                    </attachment>
+                     <attachment name="unitAttachment" attachTo="EdwardW" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         
+                         <option name="transportCost" value="2"/>
+                         <option name="isInfrastructure" value="true"/>
+                         
+                    </attachment><attachment name="unitAttachment" attachTo="EdmundW" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         
+                         <option name="transportCost" value="2"/>
+                         <option name="isInfrastructure" value="true"/>
+                         
+                    </attachment>
+                <attachment name="unitAttachment" attachTo="GeorgeW" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         
+                         <option name="transportCost" value="2"/>
+                         <option name="isInfrastructure" value="true"/>
+                         
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="RichardW" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                        
+                         <option name="transportCost" value="2"/>
+                         <option name="isInfrastructure" value="true"/>
+                        
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="KingHenryR" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         
+                         <option name="transportCost" value="2"/>
+                         <option name="isInfrastructure" value="true"/>
+                         
+                         
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="MargaretR" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         
+                        <option name="transportCost" value="2"/>
+                        <option name="isInfrastructure" value="true"/>
+                        
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="EdwardR" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         
+                         <option name="transportCost" value="2"/>
+                         <option name="isInfrastructure" value="true"/>
+                         
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="BeaufortR" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="3"/>
+                         <option name="defense" value="2"/>
+                         
+                         <option name="transportCost" value="2"/>
+                         <option name="isInfrastructure" value="true"/>
+                         
+                         </attachment>
+                         <attachment name="unitAttachment" attachTo="cathedral" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         
+                         <option name="defense" value="6"/>
+                         
+                         
+                         
+                         
+                    
+                    </attachment>
+
+                    <attachment name="unitAttachment" attachTo="city" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="isFactory" value="true"/>
+                          <option name="defense" value="5"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="fort" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="defense" value="4"/>
+                         <option name="isTwoHit" value="true"/>
+                    </attachment>
+                    <attachment name="unitAttachment" attachTo="cog" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+                         <option name="movement" value="1"/>
+                         <option name="attack" value="2"/>
+                         <option name="defense" value="2"/>
+                         <option name="isSea" value="true"/>
+                         <option name="transportCapacity" value="4"/>
+                    </attachment>
+                    
+
+                    <attachment name="territoryAttachment" attachTo="Les Attaques" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="0"/>
+                   </attachment>
+                   <attachment name="territoryAttachment" attachTo="Coulogne" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="0"/>
+                   </attachment>
+                    
+                    <attachment name="territoryAttachment" attachTo="Calais" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Loch Ness" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="MacDonell" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="McDonald" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Mackenzie" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="McLeod" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Ullapool" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                        <option name="capital" value="McLeod"/>
+                        <option name="victoryCity" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Skye" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Carnegie" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                        <option name="capital" value="Cockburn"/>
+                        <option name="victoryCity" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Macay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Sealtainn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Orcades" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Ruthven" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Fraser" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Leslie" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="York" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="8"/>
+                        <option name="capital" value="Neville"/>
+                        <option name="victoryCity" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Helmsley" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Carvetii" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Richmond" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Preston" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="S. Rheged" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Newark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Pleshey" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                        
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Thetford" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Framlingham" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Windsor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="London" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="8"/>
+                        <option name="capital" value="Plantagenet"/>
+                        <option name="victoryCity" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Pevensky" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Rockingham" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Chirk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="8"/>
+                        <option name="capital" value="Fitzalan"/>
+                        <option name="victoryCity" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Baumaris" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Milford Haven" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Caernarvon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="6"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Penzance" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Plymouth" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Cardiff" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Swansea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="6"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Cardigan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Argyll" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Norwich" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Bristol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Leicester" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Hereford" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Lincoln" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Kingston" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Farnham" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Shrewsbury" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Lancaster" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="6"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Isle of Man" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Arundel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Graham" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+
+                    <attachment name="territoryAttachment" attachTo="Okehampton" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Carlisle" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Chester" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="5"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Masham" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Berwick" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Coventry" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="8"/>
+                        <option name="capital" value="Talbot"/>
+                        <option name="victoryCity" value="1"/>
+                   </attachment>
+                   <attachment name="territoryAttachment" attachTo="Berwick" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="8"/>
+                        <option name="capital" value="Percy"/>
+                        <option name="victoryCity" value="1"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Islay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="2"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Novantae" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Alnwich" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Exeter" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Rhuddlan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="3"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Lindsey" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                    <attachment name="territoryAttachment" attachTo="Durham" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="4"/>
+                   </attachment>
+                   <attachment name="territoryAttachment" attachTo="Corfe" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+                        <option name="production" value="8"/>
+                        <option name="capital" value="Courtney"/>
+                        <option name="victoryCity" value="1"/>
+                   </attachment>
+			 <attachment name="canalAttachment1" attachTo="SZ30" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+			     <option name="canalName" value="anglesey"/>
+			     <option name="landTerritories" value="Baumaris:Caernarvon"/>
+			 </attachment>
+			 <attachment name="canalAttachment1" attachTo="SZ27" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+			     <option name="canalName" value="anglesey"/>
+			     <option name="landTerritories" value="Baumaris:Caernarvon"/>
+			 </attachment>
+			 <attachment name="canalAttachment6" attachTo="SZ63" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+			     <option name="canalName" value="pentland"/>
+			     <option name="landTerritories" value="Macay:Orcades"/>
+			 </attachment>
+			 <attachment name="canalAttachment6" attachTo="SZ64" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+			     <option name="canalName" value="pentland"/>
+			     <option name="landTerritories" value="Macay:Orcades"/>
+    </attachment>
+        </attachmentList>        
+        <initialize>
+                <ownerInitialize>
+                        <territoryOwner territory="Berwick" owner="Percy"/>
+                        <territoryOwner territory="Alnwich" owner="Percy"/>
+                        <territoryOwner territory="Carlisle" owner="Percy"/>
+                        <territoryOwner territory="Durham" owner="Percy"/>
+                        <territoryOwner territory="Masham" owner="Percy"/>
+                        <territoryOwner territory="Lancaster" owner="Percy"/>
+                        <territoryOwner territory="Novantae" owner="Percy"/>
+                        <territoryOwner territory="Loch Ness" owner="McLeod"/>
+                        <territoryOwner territory="MacDonell" owner="McLeod"/>
+                        <territoryOwner territory="McDonald" owner="McLeod"/>
+                        <territoryOwner territory="Mackenzie" owner="McLeod"/>
+                        <territoryOwner territory="McLeod" owner="McLeod"/>
+                        <territoryOwner territory="Ullapool" owner="McLeod"/>
+                        <territoryOwner territory="Skye" owner="McLeod"/>
+                        <territoryOwner territory="Carnegie" owner="Cockburn"/>
+                        <territoryOwner territory="Macay" owner="Cockburn"/>
+                        <territoryOwner territory="Sealtainn" owner="Cockburn"/>
+                        <territoryOwner territory="Orcades" owner="Cockburn"/>
+                        <territoryOwner territory="Ruthven" owner="Cockburn"/>
+                        <territoryOwner territory="Fraser" owner="Cockburn"/>
+                        <territoryOwner territory="Leslie" owner="Cockburn"/>
+                        <territoryOwner territory="York" owner="Neville"/>
+                        <territoryOwner territory="Helmsley" owner="Neville"/>
+                        <territoryOwner territory="Carvetii" owner="Neville"/>
+                        <territoryOwner territory="Richmond" owner="Neville"/>
+                        <territoryOwner territory="Preston" owner="Neville"/>
+                        <territoryOwner territory="S. Rheged" owner="Neville"/>
+                        <territoryOwner territory="Newark" owner="Neville"/>
+                        <territoryOwner territory="Pleshey" owner="Plantagenet"/>
+                        <territoryOwner territory="Thetford" owner="Plantagenet"/>
+                        <territoryOwner territory="Framlingham" owner="Plantagenet"/>
+                        <territoryOwner territory="Windsor" owner="Plantagenet"/>
+                        <territoryOwner territory="London" owner="Plantagenet"/>
+                        <territoryOwner territory="Pevensky" owner="Plantagenet"/>
+                        <territoryOwner territory="Rockingham" owner="Plantagenet"/>
+                        <territoryOwner territory="Chirk" owner="Fitzalan"/>
+                        <territoryOwner territory="Baumaris" owner="Fitzalan"/>
+                        <territoryOwner territory="Milford Haven" owner="Fitzalan"/>
+                        <territoryOwner territory="Caernarvon" owner="Fitzalan"/>
+                        <territoryOwner territory="Penzance" owner="Courtney"/>
+                        <territoryOwner territory="Plymouth" owner="Courtney"/>
+                        <territoryOwner territory="Cardiff" owner="Fitzalan"/>
+                        <territoryOwner territory="Swansea" owner="Fitzalan"/>
+                        <territoryOwner territory="Rhuddlan" owner="Talbot"/>
+                        <territoryOwner territory="Cardigan" owner="Fitzalan"/>
+                        <territoryOwner territory="Shrewsbury" owner="Talbot"/>
+                        <territoryOwner territory="Chester" owner="Talbot"/>
+                        <territoryOwner territory="Coventry" owner="Talbot"/>
+                        <territoryOwner territory="Hereford" owner="Talbot"/>
+                        <territoryOwner territory="Farnham" owner="Talbot"/>
+                        <territoryOwner territory="Leicester" owner="Talbot"/>
+                       
+                        <territoryOwner territory="Exeter" owner="Courtney"/>
+                        <territoryOwner territory="Okehampton" owner="Courtney"/>
+                        <territoryOwner territory="Corfe" owner="Courtney"/>
+                        <territoryOwner territory="Bristol" owner="Courtney"/>
+                        <territoryOwner territory="Arundel" owner="Courtney"/>
+                        
+                        
+                </ownerInitialize>
+                <unitInitialize>
+                        
+                       
+                        
+                        
+                       <unitPlacement unitType="KingRichardW" territory="York" quantity="1" owner="Neville"/>
+                       <unitPlacement unitType="cathedral" territory="York" quantity="1" owner="Neville"/>
+                       <unitPlacement unitType="EdwardW" territory="Caernarvon" quantity="1" owner="Fitzalan"/>
+                       <unitPlacement unitType="EdmundW" territory="Isle of Man" quantity="1"/>
+                       <unitPlacement unitType="fort" territory="Isle of Man" quantity="1"/>
+                       <unitPlacement unitType="GeorgeW" territory="Cardigan" quantity="1" owner="Fitzalan"/>
+                       <unitPlacement unitType="RichardW" territory="Calais" quantity="1"/>
+                       <unitPlacement unitType="KingHenryR" territory="London" quantity="1" owner="Plantagenet"/>
+                       <unitPlacement unitType="MargaretR" territory="Coventry" quantity="1" owner="Talbot"/>
+                       <unitPlacement unitType="EdwardR" territory="Rockingham" quantity="1" owner="Plantagenet"/>
+                       <unitPlacement unitType="BeaufortR" territory="Corfe" quantity="1" owner="Courtney"/>
+                        <unitPlacement unitType="fort" territory="Calais" quantity="4"/>
+                        <unitPlacement unitType="lightcavalry" territory="Loch Ness" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="cavalry" territory="Loch Ness" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="skirmishers" territory="Loch Ness" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="lightcavalry" territory="MacDonell" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="cavalry" territory="MacDonell" quantity="3" owner="McLeod"/>
+                        <unitPlacement unitType="warband" territory="MacDonell" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="slingers" territory="McDonald" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="skirmishers" territory="McDonald" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="lightcavalry" territory="Mackenzie" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="cavalry" territory="Mackenzie" quantity="3" owner="McLeod"/>
+                        <unitPlacement unitType="archers" territory="Mackenzie" quantity="2" owner="McLeod"/>
+                        <unitPlacement unitType="warband" territory="Mackenzie" quantity="3" owner="McLeod"/>
+                        <unitPlacement unitType="warband" territory="McLeod" quantity="2" owner="McLeod"/>
+                        <unitPlacement unitType="warlord" territory="Ullapool" quantity="2" owner="McLeod"/>
+                        <unitPlacement unitType="chariot" territory="Ullapool" quantity="2" owner="McLeod"/>
+                        <unitPlacement unitType="cavalry" territory="Ullapool" quantity="2" owner="McLeod"/>
+                        <unitPlacement unitType="slingers" territory="Ullapool" quantity="1" owner="McLeod"/>
+                        
+                        <unitPlacement unitType="warband" territory="Ullapool" quantity="2" owner="McLeod"/>
+                        
+                        <unitPlacement unitType="city" territory="Ullapool" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="skirmishers" territory="Skye" quantity="1" owner="McLeod"/>
+                       <unitPlacement unitType="warlord" territory="Carnegie" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="chariot" territory="Carnegie" quantity="2" owner="Cockburn"/>
+                        <unitPlacement unitType="cavalry" territory="Carnegie" quantity="4" owner="Cockburn"/>
+                        <unitPlacement unitType="slingers" territory="Carnegie" quantity="1" owner="Cockburn"/>
+                        
+                        <unitPlacement unitType="warband" territory="Carnegie" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="swordsmen" territory="Carnegie" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="city" territory="Carnegie" quantity="1" owner="Cockburn"/>
+                        
+                        <unitPlacement unitType="warband" territory="Macay" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="warband" territory="Sealtainn" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="warband" territory="Orcades" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="lightcavalry" territory="Ruthven" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="cavalry" territory="Ruthven" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="archers" territory="Ruthven" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="warband" territory="Ruthven" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="lightcavalry" territory="Fraser" quantity="2" owner="Cockburn"/>
+                        
+                        <unitPlacement unitType="warband" territory="Fraser" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="lightcavalry" territory="Leslie" quantity="2" owner="Cockburn"/>
+                        <unitPlacement unitType="cavalry" territory="Leslie" quantity="2" owner="Cockburn"/>
+                        <unitPlacement unitType="warband" territory="Leslie" quantity="2" owner="Cockburn"/>
+                        <unitPlacement unitType="warlord" territory="York" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="chariot" territory="York" quantity="2" owner="Neville"/>
+                        <unitPlacement unitType="cavalry" territory="York" quantity="2" owner="Neville"/>
+                        <unitPlacement unitType="slingers" territory="York" quantity="1" owner="Neville"/>
+                        
+                        <unitPlacement unitType="warband" territory="York" quantity="2" owner="Neville"/>
+                        <unitPlacement unitType="swordsmen" territory="York" quantity="2" owner="Neville"/>
+                        <unitPlacement unitType="city" territory="York" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="lightcavalry" territory="Helmsley" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="cavalry" territory="Helmsley" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="warband" territory="Helmsley" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="lightcavalry" territory="Carvetii" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="cavalry" territory="Carvetii" quantity="2" owner="Neville"/>
+                        
+                        <unitPlacement unitType="skirmishers" territory="Richmond" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="warband" territory="Richmond" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="archers" territory="Preston" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="warband" territory="Preston" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="skirmishers" territory="S. Rheged" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="warband" territory="S. Rheged" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="lightcavalry" territory="Newark" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="cavalry" territory="Newark" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="warband" territory="Newark" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="warlord" territory="Pleshey" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="chariot" territory="Pleshey" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="cavalry" territory="Pleshey" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="slingers" territory="Pleshey" quantity="1" owner="Plantagenet"/>
+                        
+                        <unitPlacement unitType="warband" territory="Pleshey" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="swordsmen" territory="Pleshey" quantity="2" owner="Plantagenet"/>
+                        <unitPlacement unitType="city" territory="London" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="cavalry" territory="Thetford" quantity="1" owner="Plantagenet"/>
+                        
+                        <unitPlacement unitType="warband" territory="Thetford" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="chariot" territory="Framlingham" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="slingers" territory="Framlingham" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="warband" territory="Framlingham" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="warband" territory="Windsor" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="swordsmen" territory="Windsor" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="lightcavalry" territory="London" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="cathedral" territory="London" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="cavalry" territory="London" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="archers" territory="London" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="warband" territory="London" quantity="2" owner="Plantagenet"/>
+                        <unitPlacement unitType="slingers" territory="Rockingham" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="warband" territory="Rockingham" quantity="1" owner="Plantagenet"/>
+			<unitPlacement unitType="warband" territory="Pevensky" quantity="3" owner="Plantagenet"/>
+			<unitPlacement unitType="archers" territory="Pevensky" quantity="1" owner="Plantagenet"/>
+			<unitPlacement unitType="cavalry" territory="Pevensky" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="warlord" territory="Chirk" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="cathedral" territory="Chirk" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="archers" territory="Chirk" quantity="2" owner="Fitzalan"/>
+                        <unitPlacement unitType="cavalry" territory="Chirk" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="slingers" territory="Chirk" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="chariot" territory="Chirk" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="warband" territory="Chirk" quantity="1" owner="Fitzalan"/>
+                        
+                        <unitPlacement unitType="city" territory="Chirk" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="warband" territory="Baumaris" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="lightcavalry" territory="Milford Haven" quantity="2" owner="Fitzalan"/>
+                        <unitPlacement unitType="cavalry" territory="Milford Haven" quantity="3" owner="Fitzalan"/>
+                        <unitPlacement unitType="skirmishers" territory="Milford Haven" quantity="2" owner="Fitzalan"/>
+                        
+                        <unitPlacement unitType="warband" territory="Caernarvon" quantity="2" owner="Fitzalan"/>
+                        <unitPlacement unitType="city" territory="Caernarvon" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="lightcavalry" territory="Penzance" quantity="2" owner="Courtney"/>
+                        <unitPlacement unitType="cavalry" territory="Penzance" quantity="1" owner="Courtney"/>
+                        <unitPlacement unitType="warband" territory="Penzance" quantity="1" owner="Courtney"/>
+                        
+                        <unitPlacement unitType="archers" territory="Plymouth" quantity="3" owner="Courtney"/>
+                        <unitPlacement unitType="warband" territory="Plymouth" quantity="1" owner="Courtney"/>
+                       
+                        <unitPlacement unitType="warband" territory="Cardiff" quantity="2" owner="Fitzalan"/>
+                        <unitPlacement unitType="slingers" territory="Swansea" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="warband" territory="Swansea" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="lightcavalry" territory="Cardigan" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="cavalry" territory="Cardigan" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="warband" territory="Cardigan" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="skirmishers" territory="Argyll" quantity="1"/>
+                        <unitPlacement unitType="warband" territory="Argyll" quantity="1"/>
+                        <unitPlacement unitType="cog" territory="SZ56" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="swordsmen" territory="Bristol" quantity="3" owner="Courtney"/>
+                        <unitPlacement unitType="chariot" territory="Bristol" quantity="3" owner="Courtney"/>
+                        <unitPlacement unitType="swordsmen" territory="Leicester" quantity="2" owner="Talbot"/>
+                        <unitPlacement unitType="warband" territory="Leicester" quantity="2" owner="Talbot"/>
+                        <unitPlacement unitType="cog" territory="SZ63" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="skirmishers" territory="Hereford" quantity="1" owner="Talbot"/>
+                        <unitPlacement unitType="warband" territory="Hereford" quantity="1" owner="Talbot"/>
+                        <unitPlacement unitType="cog" territory="SZ42" quantity="1" owner="Courtney"/>
+                        <unitPlacement unitType="skirmishers" territory="Lincoln" quantity="1"/>
+                        
+                        <unitPlacement unitType="skirmishers" territory="Kingston" quantity="1"/>
+                        <unitPlacement unitType="warband" territory="Kingston" quantity="2"/>
+                        <unitPlacement unitType="cog" territory="SZ30" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="chariot" territory="Farnham" quantity="2" owner="Talbot"/>
+                        
+                        <unitPlacement unitType="chariot" territory="Shrewsbury" quantity="2" owner="Talbot"/>
+                        <unitPlacement unitType="cog" territory="SZ39" quantity="1" owner="Fitzalan"/>
+                        <unitPlacement unitType="warband" territory="Lancaster" quantity="2" owner="Percy"/>
+                        <unitPlacement unitType="skirmishers" territory="Isle of Man" quantity="2"/>
+                        <unitPlacement unitType="warband" territory="Isle of Man" quantity="3"/>
+                        <unitPlacement unitType="skirmishers" territory="Arundel" quantity="1" owner="Courtney"/>
+                        <unitPlacement unitType="warband" territory="Arundel" quantity="2" owner="Courtney"/>
+                        <unitPlacement unitType="skirmishers" territory="Graham" quantity="2"/>
+                        <unitPlacement unitType="warband" territory="Graham" quantity="2"/>
+
+                        <unitPlacement unitType="cog" territory="SZ49" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="cog" territory="SZ45" quantity="3" owner="Percy"/>
+                        <unitPlacement unitType="warlord" territory="Berwick" quantity="1" owner="Percy"/>
+                        <unitPlacement unitType="city" territory="Berwick" quantity="1" owner="Percy"/>
+                        <unitPlacement unitType="cog" territory="SZ48" quantity="1" owner="Plantagenet"/>
+                        <unitPlacement unitType="skirmishers" territory="Okehampton" quantity="2" owner="Courtney"/>
+                        <unitPlacement unitType="warband" territory="Okehampton" quantity="3" owner="Courtney"/>
+                        <unitPlacement unitType="chariot" territory="Carlisle" quantity="4" owner="Percy"/>
+                        <unitPlacement unitType="cog" territory="SZ19" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="cog" territory="SZ18" quantity="1" owner="McLeod"/>
+                        <unitPlacement unitType="skirmishers" territory="Chester" quantity="3" owner="Talbot"/>
+                        <unitPlacement unitType="warband" territory="Chester" quantity="2" owner="Talbot"/>
+                        <unitPlacement unitType="skirmishers" territory="Masham" quantity="3" owner="Percy"/>
+                        <unitPlacement unitType="warband" territory="Masham" quantity="3" owner="Percy"/>
+                        <unitPlacement unitType="cog" territory="SZ10" quantity="1" owner="Cockburn"/>
+                        <unitPlacement unitType="skirmishers" territory="Berwick" quantity="1" owner="Percy"/>
+                        <unitPlacement unitType="warband" territory="Berwick" quantity="3" owner="Percy"/>
+                        <unitPlacement unitType="warlord" territory="Coventry" quantity="1" owner="Talbot"/>
+                        <unitPlacement unitType="chariot" territory="Coventry" quantity="3" owner="Talbot"/>
+                        <unitPlacement unitType="swordsmen" territory="Coventry" quantity="2" owner="Talbot"/>
+                        <unitPlacement unitType="archbishop" territory="Coventry" quantity="1" owner="Talbot"/>
+                        <unitPlacement unitType="archers" territory="Coventry" quantity="2" owner="Talbot"/>
+                          <unitPlacement unitType="cathedral" territory="Norwich" quantity="1"/>
+                        <unitPlacement unitType="cavalry" territory="Coventry" quantity="4" owner="Talbot"/>
+                        <unitPlacement unitType="city" territory="Coventry" quantity="1" owner="Talbot"/>
+                        <unitPlacement unitType="cog" territory="SZ27" quantity="1" owner="Neville"/>
+                        <unitPlacement unitType="skirmishers" territory="Lancaster" quantity="2" owner="Percy"/>
+                        <unitPlacement unitType="warband" territory="Alnwich" quantity="3" owner="Percy"/>
+                        <unitPlacement unitType="skirmishers" territory="Exeter" quantity="1" owner="Courtney"/>
+                        <unitPlacement unitType="warband" territory="Exeter" quantity="2" owner="Courtney"/>
+                        <unitPlacement unitType="cavalry" territory="Exeter" quantity="3" owner="Courtney"/>
+                        <unitPlacement unitType="warband" territory="Rhuddlan" quantity="4" owner="Talbot"/>
+                        <unitPlacement unitType="skirmishers" territory="Lindsey" quantity="1"/>
+                        <unitPlacement unitType="warband" territory="Lindsey" quantity="1"/>
+                        <unitPlacement unitType="skirmishers" territory="Durham" quantity="1" owner="Percy"/>
+                        <unitPlacement unitType="cathedral" territory="Durham" quantity="1" owner="Percy"/>
+                        <unitPlacement unitType="warband" territory="Durham" quantity="4" owner="Percy"/>
+                        <unitPlacement unitType="archbishop" territory="Corfe" quantity="1" owner="Courtney"/>
+                        <unitPlacement unitType="swordsmen" territory="Corfe" quantity="2" owner="Courtney"/>
+                        <unitPlacement unitType="chariot" territory="Corfe" quantity="1" owner="Courtney"/>
+                        <unitPlacement unitType="city" territory="Corfe" quantity="1" owner="Courtney"/>
+                        <unitPlacement unitType="warband" territory="Corfe" quantity="2" owner="Courtney"/>
+                        <unitPlacement unitType="warlord" territory="Corfe" quantity="2" owner="Courtney"/>
+                        <unitPlacement unitType="warband" territory="Norwich" quantity="2"/>
+                          <unitPlacement unitType="cathedral" territory="Lincoln" quantity="1"/>
+                        <unitPlacement unitType="warband" territory="Islay" quantity="1"/>
+                </unitInitialize>
+                <resourceInitialize>
+                        <resourceGiven player="Percy" resource="PUs" quantity="15"/>
+                        <resourceGiven player="McLeod" resource="PUs" quantity="15"/>
+                        <resourceGiven player="Cockburn" resource="PUs" quantity="15"/>
+                        <resourceGiven player="Neville" resource="PUs" quantity="15"/>
+                        <resourceGiven player="Plantagenet" resource="PUs" quantity="15"/>
+                        <resourceGiven player="Fitzalan" resource="PUs" quantity="15"/>
+                        <resourceGiven player="Talbot" resource="PUs" quantity="15"/>
+                        <resourceGiven player="Courtney" resource="PUs" quantity="15"/>
+                </resourceInitialize>
+        </initialize>
+        <propertyList>
+                
+                
+                    <property name="Projection of Power" value="false" editable="true">
+      <boolean/>
+    </property>
+    
+    <property name="Courtney Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    
+    <property name="McLeod Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    <property name="Neville Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    <property name="Fitzalan Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    <property name="Mowbry Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    <property name="Plantagenet Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    <property name="Cockburn Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    <property name="Percy Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    <property name="Talbot Projection of Power VCs" value="6" editable="false">
+      <number min="5" max="8"/>
+    </property>
+    
+    
+                
+                <property name="Low Luck" value="false" editable="true">
+                        <boolean/>
+                </property>
+                <property name="Percy bid" value="0" editable="true">
+                        <number min="0" max="1000"/>
+                </property>
+                <property name="Cockburn bid" value="0" editable="true">
+                        <number min="0" max="1000"/>
+                </property>
+                <property name="McLeod bid" value="0" editable="true">
+                        <number min="0" max="1000"/>
+                </property>
+                <property name="Neville bid" value="0" editable="true">
+                        <number min="0" max="1000"/>
+                </property>
+                <property name="Fitzalan bid" value="0" editable="true">
+                        <number min="0" max="1000"/>
+                </property>
+                <property name="Plantagenet bid" value="0" editable="true">
+                        <number min="0" max="1000"/>
+                </property>
+                <property name="Talbot bid" value="0" editable="true">
+                        <number min="0" max="1000"/>
+                </property>
+                <property name="Courtney bid" value="0" editable="true">
+                        <number min="0" max="1000"/>
+                </property>
+                
+/>
+
+</propertyList>
+
+</game>
